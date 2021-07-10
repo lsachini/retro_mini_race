@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "name": "Retro Mini Race",
+    "orientation": ["landscape-primary"],
+    "fullscreen": "true",
+    "description": "Retrogame inspired in Speedway, old game released to Odyssey 2. The main goal is to make the people remember this funny game.",
+    "launch_path": "/index.html",
+    "developer": {
+        "name": "@bstracto Software"
+    },
+    "default_locale": "en",
+    "icons": {
+      "30": "/img/icon30x30.png",
+      "32": "/img/icon32x32.png",
+      "60": "/img/icon60x60.png",
+      "90": "/img/icon90x90.png",
+      "128": "/img/icon128x128.png",
+      "256": "/img/icon256x256.png"
+    }
+}

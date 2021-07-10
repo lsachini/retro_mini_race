@@ -1,0 +1,64 @@
+body {
+    font-family: 'PontoFont';
+    font-size: 18px;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none;    
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+body {
+    width: 480px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+#tdBoard  {
+    width: 100px;
+    text-align: right;
+}
+
+#boardType {
+    width: 100px;
+}
+
+td {
+    vertical-align: bottom;
+    border-bottom: 1px solid #000000;
+}
+
+.tdPosition {
+    width: 50px;
+    text-align: center;
+}
+
+.trClass {
+    height: 20px;
+}
+
+.trTitle {
+    font-weight: bold;
+}
+
+#btnBack,
+#btnClean {
+    margin-top: -25px;
+}
+
+#btnBack {
+    float: right;
+    margin-right: 100px;
+}
+
+#btnClean {
+    float: left;
+    margin-left: 100px;
+}

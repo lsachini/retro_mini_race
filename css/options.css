@@ -1,0 +1,58 @@
+html, body {
+    width: 480px;
+    font-family: 'PontoFont';
+    font-size: 16px;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    text-align: center;	
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+}
+    
+table {
+    width: 295px;
+    margin: auto;
+}
+
+td {
+    height: 35px;
+    border: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+#logo {
+    margin: auto;
+}
+
+select {
+    height: 30px;
+}
+
+#btnBack,
+#btnSave {
+    margin-top: 20px;
+}
+
+#btnBack {
+    float: right;
+    margin-right: 100px;
+}
+
+#btnSave {
+    float: left;
+    margin-left: 100px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta name="viewport" content="width=480, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />	
+    <head>
+	    <title>Ponto a Ponto</title>
+		<link href="css/options.css" type="text/css" rel="stylesheet">
+        <link href="css/dialog.css" type="text/css" rel="stylesheet">
+        <link href="css/components.css" type="text/css" rel="stylesheet">        
+	</head>
+	<body>
+        <img src="img/logosmall.png" id="logo">
+        <table  border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="tdPlayerColorLabel">Player Color:</td>
+                <td>
+                    <select id="playerColor" disabled class="combo">
+                        <option value="black">Black</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="orange">Orange</option>
+                        <option value="red">Red</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </td>
+            </tr> 
+            <tr>
+                <td id="tdOpponentColorLabel">Opponent Color:</td>
+                <td>
+                    <select id="opponentColor" disabled class="combo">
+                        <option value="black">Black</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="orange">Orange</option>
+                        <option value="red">Red</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td id="tdSoundLabel">Sounds:</td>
+                <td>
+                    <select id="sounds" disabled class="combo">
+                        <option value="yes" selected>Yes</option>
+                        <option value="no" selected>No</option>
+                    </select>
+                </td>
+            </tr>    
+        </table>
+        <br>
+        <div id="btnSave" class="button button-medium">Save</div>
+        <div id="btnBack" class="button button-medium">Back</div>
+        <script type="text/javascript" src="js/fastbutton.js" charset="iso-8859-1"></script>         
+        <script type="text/javascript" src="js/dialog.js" charset="iso-8859-1"></script>                 
+        <script type="text/javascript" src="js/util.js" charset="iso-8859-1"></script>
+		<script type="text/javascript" src="js/options.js" charset="iso-8859-1"></script>  
+		<script type="text/javascript" src="js/optionsinit.js" charset="iso-8859-1"></script> 
+	</body>
+</html>

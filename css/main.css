@@ -1,0 +1,49 @@
+html, body , main{
+    width: 480px;
+    font-size: 25px;
+	text-transform:uppercase;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+}
+
+input {
+    width: 100px;
+    height: 30px
+}
+
+#fakeImgMain {
+    width: 1px;    
+    height: 50%;
+    vertical-align: middle
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#btnPlay,
+#btnRanking,
+#btnOptions {
+    height: 26px;
+	font-size: 22px;
+}
+
+#btnOptions {
+    float: left;
+    margin-left: 33px;
+}
+
+#btnRanking {
+    float: right;
+    margin-right: 33px;
+}
